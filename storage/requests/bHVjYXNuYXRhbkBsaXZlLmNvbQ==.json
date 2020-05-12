@@ -1,0 +1,22 @@
+{
+    "stautApi": {
+        "limit": 1,
+        "requests": 1,
+        "time": 1587838087
+    },
+    "usersUpdate": {
+        "limit": 5,
+        "requests": 1,
+        "time": 1587760910
+    },
+    "usersCreate": {
+        "limit": 5,
+        "requests": 5,
+        "time": 1587838106
+    },
+    "stautApiAuth": {
+        "limit": 3,
+        "requests": 1,
+        "time": 1587838146
+    }
+}

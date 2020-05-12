@@ -1,0 +1,35 @@
+{
+    "name": "natanlucas/stautgroupapi",
+    "description": "API REST",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Lucas Nata S. Gonçalves",
+            "email": "lucasnatan@live.com",
+            "homepage": "https://github.com/natanlucas",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-pdo": "^7.1",
+        "league/plates": "v4.0.0-alpha",
+        "coffeecode/uploader": "^1.0",
+        "coffeecode/cropper": "^1.0",
+        "coffeecode/optimizer": "^1.0",
+        "coffeecode/paginator": "^1.0",
+        "coffeecode/router": "^1.0"
+    }
+}
